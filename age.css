@@ -1,0 +1,123 @@
+#doc{
+  text-align: center;
+  margin: 0;
+  background-image: url(https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-040.jpg);
+  background-size: cover;
+  width: 100%;
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-weight: 300;
+  letter-spacing: 7px;
+  font-size: 300%;
+  text-align: center;
+  margin-top: 7%;
+}
+
+input {
+  border-radius: 10px;
+  font-family: "Arial", serif;
+  font-size: 15px;
+  margin: 0 5px 30px 5px;
+  padding: 10px;
+  border-color: black;
+  border-width: thin;
+  width: 5%;
+}
+input:focus {
+  outline: none;
+}
+
+p {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 150%;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+.birthDate {
+  display: block;
+}
+.expectDate {
+  display: block;
+}
+.birthDate > p {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.expectDate > p {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+button {
+  border-radius: 10px;
+  font-family: "Montserrat";
+  padding: 10px 20px;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 25px 0 rgba(0, 0, 0, 0.19)
+}
+button:active {
+  transform: scale(0.98);
+}
+button:focus {
+  outline:none;
+}
+
+#setToday {
+  background-image: linear-gradient(to top left, #FFD400, #FFF192);
+  margin-left: 15px;
+  position: absolute;
+}
+
+#reset {
+  background-image: linear-gradient(to top left, #B70B0D, #D34B08);
+  color: white;
+  margin-right: 5px;
+  font-size: 75%;
+  padding: 10px 15px;
+}
+
+#calculate {
+  background-image: linear-gradient(to top left, #010280, #135CC5);
+  color: white;
+  margin-left: 5px;
+  padding: 12px 25px;
+}
+
+#error{
+  background-color: red;
+  text-align: center;
+  color: white;
+  font-family: "Montserrat";
+  font-size: 60%;
+  letter-spacing: 2px;
+  padding: 5px 20px;
+  margin-right: 10px;
+  border-radius: 20px;
+  display: none;
+}
+
+#result {
+  margin-top: 50px;
+  display: none;
+}
+
+#str {
+  font-size: 110%;
+}
+#ageResult {
+  font-size: 200%;
+  font-weight: bold;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  font-family: "Montserrat";
+  letter-spacing: 2px;
+}

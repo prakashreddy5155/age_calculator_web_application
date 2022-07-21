@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Age Calculator</title>
+    <link rel="stylesheet" href="age.css">
+  </head>
+  <body id="doc">
+    <h1 id="head">Age Calculator</h1>
+    <div class="birthDate" id="birthDate">
+      <p>Set your Birth Date</p>
+      <input type="text" name="" placeholder="Day" id="birthDay">
+      <input type="text" name="" placeholder="Month" id="birthMonth">
+      <input type="text" name="" placeholder="Year" id="birthYear">
+    </div>
+    <div class="expectDate" id="expectDate">
+      <p>Calculate your AGE until</p>
+      <input type="text" name="" placeholder="Day" id="expectDay">
+      <input type="text" name="" placeholder="Month" id="expectMonth">
+      <input type="text" name="" placeholder="Year" id="expectYear">
+      <button type="button" name="" id="setToday">Today</button>
+    </div>
+    <button type="button" id="reset">Reset</button>
+    <button type="button" id="calculate">Find out your actual age!</button>
+    <div class="errorField">
+      <p><span id="error"></span></span></p>
+    </div>
+    <div class="result" id="result">
+      <p id="str"></p>
+      <p id="ageResult"></p>
+    </div>
+    <footer>&copy; 2022 Prakashreddy</footer>
+    <script src="age.js" charset="utf-8"></script>
+
+
+    
+  </body>
+</html>
